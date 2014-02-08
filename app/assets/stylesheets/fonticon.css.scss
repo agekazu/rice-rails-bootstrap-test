@@ -1,0 +1,24 @@
+@import "font-awesome";
+
+.icon-twitter:before { content: '\74'; } /* 't' */
+.icon-plus:before { content: '\70'; } /* 'p' */
+
+.btn:before {
+    font-family: 'fonticon';
+    padding: 5px;
+    content: '\70'; 
+}
+
+.btn-primary:before{
+    font-family: 'fonticon';
+    content: '\74';
+    padding: 5px;
+}
+
+h1{
+    &:before {
+        font-family: 'fonticon';
+        content: '\74';
+        padding: 10px;
+    }
+}
